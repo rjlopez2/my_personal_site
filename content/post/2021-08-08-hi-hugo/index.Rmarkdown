@@ -1,0 +1,42 @@
+---
+title: Hi Hugo
+author: ~
+date: '2021-08-08'
+slug: hi-hugo
+categories: []
+tags: []
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2021-08-08T15:17:37+02:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+this is ridiculous
+
+and this is an r code bellow.
+
+```{r}
+summary(Orange)
+```
+
+this is a plot 
+
+```{r echo=FALSE}
+library(ggplot2)
+oplot <- ggplot(Orange, aes(x = age, 
+                   y = circumference, 
+                   colour = Tree)) +
+  geom_point() +
+  geom_line() +
+  guides(colour = FALSE) +
+  theme_bw()
+oplot
+```
+
+and more blablabla
